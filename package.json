@@ -1,0 +1,25 @@
+{
+  "name": "extention",
+  "version": "1.0.0",
+  "description": "echarts extention",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development ",
+    "build": "webpack --mode=production "
+  },
+  "keywords": [
+    "echarts",
+    "extention"
+  ],
+  "author": "Eric",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.2",
+    "echarts": "^4.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1",
+    "zrender": "^4.0.7"
+  }
+}
